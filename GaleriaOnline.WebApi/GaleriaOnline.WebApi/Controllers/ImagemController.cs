@@ -29,7 +29,6 @@ namespace GaleriaOnline.WebApi.Controllers
             }
 
             return Ok(imagem);
-
         }
 
         [HttpGet]
@@ -37,9 +36,7 @@ namespace GaleriaOnline.WebApi.Controllers
         {
             var imagens = await _repository.GetAllAsync();
             return Ok(imagens);
-
         }
-
 
         [HttpPost("upload")]
         public async Task<IActionResult> UploadImagem([FromForm] ImagemDto dto)
@@ -51,6 +48,7 @@ namespace GaleriaOnline.WebApi.Controllers
 
             var extensao = Path.GetExtension(dto.Arquivo.FileName);
             var nomeArquivo = $"{Guid.NewGuid()}{extensao}";
+
             var pastaRelativa = "wwwroot/imagens";
             var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), pastaRelativa);
 
@@ -69,30 +67,26 @@ namespace GaleriaOnline.WebApi.Controllers
             var imagem = new Imagem
             {
                 Nome = dto.Nome,
-                Caminho = Path.Combine(pastaRelativa, nomeArquivo).Replace("\\", "")
+                Caminho = Path.Combine(pastaRelativa, nomeArquivo).Replace("\\", "/")
             };
 
             await _repository.CreateAsync(imagem);
-            return CreatedAtAction(nameof(GetImagemPorID), new
-            {
-                id = imagem.Id
-            }, imagem);
+
+            return CreatedAtAction(nameof(GetImagemPorID), new { id = imagem.Id }, imagem);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> AtualizarImagem(int id, PutImagemDto imagemAtualizada)
         {
-
             var imagem = await _repository.GetByIdAsync(id);
-
             if (imagem == null)
             {
-                return NotFound("imagem não encontrada");
+                return NotFound("Imagem não encontrada");
             }
 
             if (imagemAtualizada.Arquivo == null && string.IsNullOrWhiteSpace(imagemAtualizada.Nome))
             {
-                return BadRequest("Pelo menos um dos campos deve ser preenchido");
+                return BadRequest("Pelo menos um dos campos tem que ser preenchido.");
             }
 
             if (!string.IsNullOrWhiteSpace(imagemAtualizada.Nome))
@@ -104,6 +98,7 @@ namespace GaleriaOnline.WebApi.Controllers
 
             if (imagemAtualizada.Arquivo != null && imagemAtualizada.Arquivo.Length > 0)
             {
+
                 if (System.IO.File.Exists(caminhoAntigo))
                 {
                     System.IO.File.Delete(caminhoAntigo);
@@ -111,6 +106,7 @@ namespace GaleriaOnline.WebApi.Controllers
 
                 var extensao = Path.GetExtension(imagemAtualizada.Arquivo.FileName);
                 var nomeArquivo = $"{Guid.NewGuid()}{extensao}";
+
                 var pastaRelativa = "wwwroot/imagens";
                 var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), pastaRelativa);
 
@@ -118,7 +114,6 @@ namespace GaleriaOnline.WebApi.Controllers
                 {
                     Directory.CreateDirectory(caminhoPasta);
                 }
-
                 var caminhoCompleto = Path.Combine(caminhoPasta, nomeArquivo);
 
                 using (var stream = new FileStream(caminhoCompleto, FileMode.Create))
@@ -157,7 +152,7 @@ namespace GaleriaOnline.WebApi.Controllers
                 }
                 catch (Exception ex)
                 {
-                    return StatusCode(500, $"erro ao excluir o arquivo:{ex.Message}");
+                    return StatusCode(500, $"Erro ao excluir o arquivo: {ex.Message}");
                 }
             }
 

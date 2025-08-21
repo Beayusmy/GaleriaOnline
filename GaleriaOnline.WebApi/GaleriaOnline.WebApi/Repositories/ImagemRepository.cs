@@ -10,6 +10,10 @@ namespace GaleriaOnline.WebApi.Repositories
     {
         private readonly GaleriaOnlineDbContext _context;
        
+        public ImagemRepository(GaleriaOnlineDbContext context)
+        {
+            _context = context;
+        }
 
         public async Task<IEnumerable<Imagem>> GetAllAsync()
         {
@@ -22,7 +26,7 @@ namespace GaleriaOnline.WebApi.Repositories
         }
         public async Task<Imagem> CreateAsync(Imagem imagem)
         {
-            _context.Imagens.Add(imagem);
+            _context.Imagens.Add(imagem);  
             await _context.SaveChangesAsync();
             return imagem;
         }
