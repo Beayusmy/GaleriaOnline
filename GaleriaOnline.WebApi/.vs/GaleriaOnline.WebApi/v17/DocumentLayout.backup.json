@@ -63,14 +63,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "287fb133-7f76-4921-ab15-6f77fe24bd83.png - PNG [154x130, 32 bits, PNG]",
+              "Title": "287fb133-7f76-4921-ab15-6f77fe24bd83.png",
               "DocumentMoniker": "C:\\Users\\40511347847\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\287fb133-7f76-4921-ab15-6f77fe24bd83.png",
               "RelativeDocumentMoniker": "GaleriaOnline.WebApi\\wwwroot\\imagens\\287fb133-7f76-4921-ab15-6f77fe24bd83.png",
-              "ToolTip": "C:\\Users\\40511347847\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\287fb133-7f76-4921-ab15-6f77fe24bd83.png - PNG [154x130, 32 bits, PNG]",
-              "RelativeToolTip": "GaleriaOnline.WebApi\\wwwroot\\imagens\\287fb133-7f76-4921-ab15-6f77fe24bd83.png - PNG [154x130, 32 bits, PNG]",
+              "ToolTip": "C:\\Users\\40511347847\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\287fb133-7f76-4921-ab15-6f77fe24bd83.png",
+              "RelativeToolTip": "GaleriaOnline.WebApi\\wwwroot\\imagens\\287fb133-7f76-4921-ab15-6f77fe24bd83.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-08-21T11:30:00.659Z",
-              "EditorCaption": " - PNG [154x130, 32 bits, PNG]"
+              "WhenOpened": "2025-08-21T11:30:00.659Z"
             },
             {
               "$type": "Document",
@@ -94,8 +93,7 @@
               "RelativeToolTip": "GaleriaOnline.WebApi\\DTO\\PutImagemDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:01:32.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T19:01:32.134Z"
             },
             {
               "$type": "Document",
@@ -107,8 +105,7 @@
               "RelativeToolTip": "GaleriaOnline.WebApi\\DTO\\ImagemDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T16:47:32.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T16:47:32.112Z"
             },
             {
               "$type": "Document",
@@ -120,8 +117,7 @@
               "RelativeToolTip": "GaleriaOnline.WebApi\\Controllers\\ImagemController.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAkwEoAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T16:37:45.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T16:37:45.739Z"
             },
             {
               "$type": "Document",
@@ -145,8 +141,7 @@
               "RelativeToolTip": "GaleriaOnline.WebApi\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAuwC0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T16:09:33.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T16:09:33.196Z"
             },
             {
               "$type": "Document",
@@ -158,8 +153,7 @@
               "RelativeToolTip": "GaleriaOnline.WebApi\\Repositories\\ImagemRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:33:08.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T14:33:08.3Z"
             },
             {
               "$type": "Document",
@@ -171,8 +165,7 @@
               "RelativeToolTip": "GaleriaOnline.WebApi\\Interfaces\\IImagemRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:21:20.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T14:21:20.54Z"
             },
             {
               "$type": "Document",
@@ -196,8 +189,7 @@
               "RelativeToolTip": "GaleriaOnline.WebApi\\DbContextImagem\\GaleriaOnlineDbContext.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAACYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:02:35.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T13:02:35.682Z"
             },
             {
               "$type": "Document",
