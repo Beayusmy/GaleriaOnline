@@ -1,9 +1,8 @@
 import "./Card.css"
-import imgCard from '../../assets/img/stitch.png'
 import imgPen from '../../assets/img/pen.png'
 import imgTrash from '../../assets/img/trash.png'
 
-export const Card = ({tituloCard}) => {
+export const Card = ({tituloCard, imgCard}) => {
     return(
         <>
         <div className="cardDaImagem">

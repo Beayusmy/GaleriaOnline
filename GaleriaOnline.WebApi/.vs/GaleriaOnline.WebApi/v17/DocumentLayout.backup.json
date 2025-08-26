@@ -34,8 +34,7 @@
               "RelativeToolTip": "GaleriaOnline.WebApi\\Models\\Imagem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T13:46:14.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T13:46:14.745Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "GaleriaOnline.WebApi\\DbContextImagem\\GaleriaOnlineDbContext.cs",
               "ToolTip": "C:\\Users\\40511347847\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\DbContextImagem\\GaleriaOnlineDbContext.cs",
               "RelativeToolTip": "GaleriaOnline.WebApi\\DbContextImagem\\GaleriaOnlineDbContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T13:02:35.682Z",
               "EditorCaption": ""
@@ -53,15 +52,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GaleriaOnline.WebApi",
+              "Title": "GaleriaOnline.WebApi.csproj",
               "DocumentMoniker": "C:\\Users\\40511347847\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj",
               "RelativeDocumentMoniker": "GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj",
               "ToolTip": "C:\\Users\\40511347847\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj",
               "RelativeToolTip": "GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-19T11:44:27.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T11:44:27.614Z"
             }
           ]
         }
